@@ -1,0 +1,18 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^8.0.0",
+    "inquirer": "^8.1.1"
+  }
+}

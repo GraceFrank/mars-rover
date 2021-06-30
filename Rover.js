@@ -78,11 +78,3 @@ class Rover {
 }
 
 module.exports = Rover
-
-// const rover1 = new Rover(3, 3, 'E', [5, 5])
-// rover1.rove('MMRMMRMRRM')
-// console.log(rover1.getPlateauPosition([5, 5]))
-
-// const rover2 = new Rover(1, 2, 'N', [5, 5])
-// rover2.rove('LMLMLMLMM')
-// console.log(rover2.getPlateauPosition())

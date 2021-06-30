@@ -15,6 +15,7 @@ program.command('rove <filePath>').action(function (filePath) {
   for (const rover of rovers) {
     const { x, y, direction, instruction, name } = rover
     const marsRover = new Rover(x, y, direction, plateau)
+
     console.log(`${name}:${marsRover.rove(instruction)}`)
   }
 })

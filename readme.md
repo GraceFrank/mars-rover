@@ -21,10 +21,10 @@ npm link
 
 The accepted input format is a text file
 
-Run mars-rover pathToFile.txt
+Run mars-rover rove pathToFile.txt
 
 ```bash
-mars-rover pathToFile.txt
+mars-rover rove pathToFile.txt
 ```
 
 ## File Format example
@@ -35,3 +35,4 @@ Rover1 Instructions:LMLMLMLMM
 Rover2 Landing:3 3 E
 Rover2 Instructions:MMRMMRMRRM
 ```
+
